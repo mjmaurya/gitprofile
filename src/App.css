@@ -1,0 +1,282 @@
+
+
+.main{
+  min-height: 100vh;
+}
+.home{
+  background-image: url('https://assets.codepen.io/1538474/star.svg'),linear-gradient(to bottom, #05007A, #4D007D);
+  height: 100%;
+  margin: 0;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.github-fork-ribbon-wrapper{
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+}
+.right {
+  text-align: right;
+}
+.github-fork-ribbon{
+  background-color: rgb(0, 170, 85);
+  overflow: hidden;
+  white-space: nowrap;
+  position: absolute;
+  right:-50px;
+  top: 40px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-box-shadow: 0 0 10px #888;
+  -moz-box-shadow: 0 0 10px #888;
+  box-shadow: 0 0 10px #888;
+}
+.github-fork-ribbon a {
+  border: 2px dotted #fff;
+  color: #fff;
+  display: block;
+  font: bold 81.25% 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 1px 0;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 0 5px #444;
+}
+.github-fork-ribbon a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+.resume{
+padding: 0px;
+}
+.avatar img{
+  border-radius: 50%;
+  width: 150px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 10px solid #ccc;
+}
+.details{
+  min-height:500px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.header{
+  margin-bottom: 20px;
+  text-align: center;
+}
+.header .name{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.block{
+  margin-bottom: 20px;
+  margin-top: 10px;
+
+}
+hr{
+        top: 20px;
+        border: none;
+        height: 12px;
+        background: #fff;
+        margin-bottom: 20px;
+        width: 80%;
+        margin-left:10% !important;
+        margin-right:10%;
+
+}
+.more-details{
+  margin: 10px 20px;
+}
+
+.section{
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #ccc;
+  background: rgb(255, 252, 252);
+  padding: 5px 10px;
+}
+.section h3{
+  font-size: 20px;
+  margin: auto;
+  font-weight: bold;
+}
+
+.skill_data{
+    margin: 5px;
+    background: #fff;
+    box-shadow: 0px 0px 5px #25ffff;
+    border-radius: 10px;
+    padding: 0px 15px;
+    display:inline-block;
+}
+/* .repo_data{
+    margin: 5px;
+    background: #fff;
+    box-shadow: 0px 0px 5px #25ffff;
+    border-radius: 10px;
+    padding: 0px 15px;
+    display:inline-block;
+} */
+.repo_data a{
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.download-section{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.details{
+  text-align: center; background-color: rgb(42, 157, 143); padding: 20px;
+  margin: 0px;
+}
+.social{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.social-links{
+  opacity: 0.7;
+  text-align: center;
+  margin: 20px 10px;
+  padding: 5px 10px; 
+  border-radius: 100%;
+  color: #fff;
+}
+.social-links:hover{
+  text-decoration: none;
+  color: #fff;
+  opacity: 1;
+}
+.github{
+  background-color: #000;
+}
+.twitter{
+  background-color: #1da1f2;
+}
+.blog{
+  background-color: #ffb900;
+}
+.email{
+  background-color: #ff3d00;
+}
+
+
+
+/* Loader Css */
+
+.backdrop {
+  background-color: transparent;
+  min-height: 50vh;
+  text-align: center;
+}
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -4em;
+  font-size: 10px;
+  border: 7px solid #f3f3f3;
+  border-left: 7px solid #3498db;
+  border-right: 7px solid #9807c4;
+  border-top: 7px solid #c40707;
+  animation: spin 1s linear infinite;
+}
+.loader, .loader:after {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: block;
+  top: 50%;
+  margin-top: -4.05em;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Profile Card */
+
+.profile{
+  width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #ccc;
+  margin-bottom: 20px;
+  text-align: center;
+  height: wrap-content;
+  padding-bottom: 20px;
+}
+.profile-header{
+  border-radius: 10px 10px 0px 0px;
+  text-align: center;
+  height: 150px;
+}
+.profile-img{
+  margin-top: -100px;
+}
+.profile-img img{
+  width: 150px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 10px solid #fff;
+}
+.profile-name h3{
+  padding: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.profile-links{
+  margin-bottom: 20px;
+}
+.profile-links a{
+  opacity: 0.7;
+  text-align: center;
+  margin: 20px 10px;
+  padding: 5px 10px; 
+  border-radius: 100%;
+  color: #fff;
+}
+.customize{
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+/*Footer  */
+.footer{
+  background-color: rgb(39, 94, 221);
+  padding: 20px 0px 0px 0px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+.footer a{
+  color: #fff;
+  text-decoration: none;
+}
+.footer a:hover{
+  color: #fff;
+  text-decoration: none;
+}
